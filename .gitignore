@@ -1,0 +1,11 @@
+/*
+!/alacritty/
+!/nvim/
+!/tmux/
+!/yazi/
+!/starship.toml
+!/.gitignore
+/alacritty/themes/
+/tmux/plugins/
+lazy-lock.json
+.DS_Store
