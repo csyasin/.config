@@ -13,4 +13,4 @@ normal = { family = "CaskaydiaCove Nerd Font" }
 opacity = 0.9
 blur = true
 option_as_alt = "Both"
-dimensions = { columns = 150, lines = 30 }
+dimensions = { columns = 135, lines = 45 }
