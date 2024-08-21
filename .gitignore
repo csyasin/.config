@@ -5,6 +5,7 @@
 !/yazi/
 !/starship.toml
 !/.gitignore
+!/vscode-customizations
 /alacritty/themes/
 /tmux/plugins/
 lazy-lock.json
