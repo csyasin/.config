@@ -1,9 +1,37 @@
 .editor-container .monaco-scrollable-element > .scrollbar.vertical > .slider {
-  background-image: linear-gradient(
-    to bottom,
-    #82a1f0,
+  background: linear-gradient(
     #90f4d4,
-    #64c1db
-  ) !important;
+    #00ffff,
+    #82a1f0,
+    #bb9af7,
+    #ff9e65,
+    #64c1db,
+    #9ece6a,
+    #90f4d4
+  );
+  background-size: 100% 1000%;
   width: 3px !important;
+  overflow: visible !important;
+  animation: 25s linear infinite alternate animation;
+}
+
+@keyframes animation {
+  0% {
+    background-position: 0 0;
+  }
+  20% {
+    background-position: 0 200%;
+  }
+  40% {
+    background-position: 0 400%;
+  }
+  60% {
+    background-position: 0 600%;
+  }
+  80% {
+    background-position: 0 800%;
+  }
+  100% {
+    background-position: 0 1000%;
+  }
 }
