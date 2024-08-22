@@ -15,7 +15,7 @@
   animation: 25s linear infinite alternate animation;
   z-index: 1;
 }
-div.cursor::after {
+.cursors-layer .cursor::after {
   content: "";
   position: absolute;
   top: 0;
