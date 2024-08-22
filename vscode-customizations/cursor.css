@@ -1,12 +1,12 @@
 .cursors-layer .cursor {
   background: linear-gradient(
     #90f4d4,
+    #00ffff,
     #82a1f0,
-    #F25875,
+    #BB9AF7,
+    #ff9e65,
     #64c1db,
     #9ece6a,
-    #ff9e65,
-    #00ffff,
     #90f4d4
   );
   background-size: 100% 1000%;
