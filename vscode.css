@@ -64,6 +64,6 @@ html {
     rgb(127, 127, 213),
     transparent
   ) !important;
-  width: 6px !important;
-  transform: translateX(8px) !important;
+  width: 4px !important;
+  transform: translateX(10px) !important;
 }
