@@ -7,7 +7,8 @@ html {
     135deg,
     rgb(127, 127, 213),
     rgb(134, 168, 231),
-    rgb(145, 234, 228)
+    rgb(145, 234, 228),
+    #fd9e65
   );
 }
 
@@ -32,9 +33,9 @@ html {
   position: absolute;
   width: calc(100% - 8px);
   height: calc(100% - 8px);
-  border-radius: 4px;
   top: 4px;
   left: 4px;
+  border-radius: 4px;
   background: var(--bg) !important;
   opacity: 0.3;
   pointer-events: none;
@@ -55,6 +56,14 @@ html {
 
 /* scrollbar */
 .editor-container .monaco-scrollable-element > .scrollbar.vertical > .slider {
-  background: var(--bg) !important;
-  width: 3px !important;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgb(127, 127, 213),
+    rgb(145, 234, 228),
+    rgb(127, 127, 213),
+    transparent
+  ) !important;
+  width: 6px !important;
+  transform: translateX(8px) !important;
 }
