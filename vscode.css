@@ -2,16 +2,6 @@
   font-family: 'CaskaydiaCove NF Light' !important;
 }
 
-html {
-  --bg: linear-gradient(
-    135deg,
-    rgb(127, 127, 213),
-    rgb(134, 168, 231),
-    rgb(145, 234, 228),
-    #fd9e65
-  );
-}
-
 /* command center */
 .quick-input-widget {
   top: 20% !important;
@@ -36,21 +26,37 @@ html {
   top: 4px;
   left: 4px;
   border-radius: 4px;
-  background: var(--bg) !important;
+  background: linear-gradient(
+    45deg,
+    rgb(127, 127, 213),
+    rgb(134, 168, 231),
+    rgb(145, 234, 228),
+    rgb(145, 234, 228),
+    rgb(134, 168, 231)
+  ) !important;
   opacity: 0.3;
   pointer-events: none;
 }
 
 /* minimap */
 .minimap-slider-horizontal {
-  background: var(--bg) !important;
-  opacity: 0.3 !important;
-  border-radius: 4px;
+  background-size: 4px 4px !important;
+  background-image: radial-gradient(transparent 1px, #9597ff30 1px) !important;
+  backdrop-filter: saturate(50%) blur(4px);
+  border-radius: 6px;
+  border: 2px solid #9597ff60;
+  box-sizing: border-box;
+  cursor: grab;
 }
 
 /* cursor */
 .cursors-layer .cursor {
-  background: var(--bg) !important;
+  background: linear-gradient(
+    135deg,
+    rgb(127, 127, 213),
+    rgb(134, 168, 231),
+    rgb(145, 234, 228)
+  ) !important;
   border-radius: 2px;
 }
 
