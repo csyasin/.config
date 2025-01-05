@@ -1,9 +1,11 @@
 /*
 !/alacritty/
 !/nvim/
+/nvim/lazyvim.json
 !/tmux/
 !/yazi/
 !/starship.toml
+!/ghostty/
 !/.gitignore
 !/vscode-customizations
 /alacritty/themes/

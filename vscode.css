@@ -70,6 +70,6 @@
     rgb(127, 127, 213),
     transparent
   ) !important;
-  width: 4px !important;
-  transform: translateX(10px) !important;
+  width: 3px !important;
+  transform: translateX(11px) !important;
 }

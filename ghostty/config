@@ -1,0 +1,9 @@
+font-size = 18
+font-family = "CaskaydiaCove NFM Regular"
+custom-shader = shaders/bettercrt.glsl
+#custom-shader = shaders/drunkard.glsl
+#custom-shader = shaders/glitchy.glsl
+#custom-shader = shaders/retro-terminal.glsl
+#custom-shader = shaders/tft.glsl
+#custom-shader = shaders/underwater.glsl
+#custom-shader = shaders/water.glsl
