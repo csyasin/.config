@@ -1,6 +1,12 @@
-font-size = 18
+font-size = 16
 font-family = "CaskaydiaCove NFM Regular"
-custom-shader = shaders/bettercrt.glsl
+theme = catppuccin-mocha
+window-width = 150
+window-height = 40
+window-padding-x = 15
+window-padding-balance
+adjust-cell-height = 10%
+#custom-shader = shaders/bettercrt.glsl
 #custom-shader = shaders/drunkard.glsl
 #custom-shader = shaders/glitchy.glsl
 #custom-shader = shaders/retro-terminal.glsl
