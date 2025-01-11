@@ -1,6 +1,11 @@
 return {
-  "LazyVim/LazyVim",
-  opts = {
-    colorscheme = "catppuccin-mocha",
+  { "rose-pine/neovim" },
+
+  -- Configure LazyVim to load gruvbox
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "rose-pine-moon",
+    },
   },
 }
