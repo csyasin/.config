@@ -1,6 +1,6 @@
-* {
-  /* font-family: 'CaskaydiaCove NF Light' !important; */
-}
+/* * { */
+/*   font-family: 'CaskaydiaCove NFM Light' !important; */
+/* } */
 
 /* command center */
 .quick-input-widget {
@@ -25,7 +25,7 @@
   height: calc(100% - 8px);
   top: 4px;
   left: 4px;
-  border-radius: 4px;
+  border-radius: 6px;
   background: linear-gradient(
     45deg,
     rgb(127, 127, 213),
@@ -55,7 +55,8 @@
     135deg,
     rgb(127, 127, 213),
     rgb(134, 168, 231),
-    rgb(145, 234, 228)
+    rgb(145, 234, 228),
+    #FF9E65
   ) !important;
   border-radius: 2px;
 }
@@ -70,6 +71,6 @@
     rgb(127, 127, 213),
     transparent
   ) !important;
-  width: 3px !important;
-  transform: translateX(11px) !important;
+  width: 2px !important;
+  transform: translateX(12px) !important;
 }
