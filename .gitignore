@@ -8,6 +8,7 @@
 !/ghostty/
 !/.gitignore
 !/vscode-customizations
+!/leader-key.json
 /alacritty/themes/
 /tmux/plugins/
 lazy-lock.json
