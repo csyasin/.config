@@ -153,6 +153,12 @@
           "label" : "Generate QR Code",
           "type" : "url",
           "value" : "raycast://extensions/Melvynx/qrcode-generator/index"
+        },
+        {
+          "key" : "g",
+          "label" : "Google Search",
+          "type" : "url",
+          "value" : "raycast://extensions/mblode/google-search/index"
         }
       ],
       "key" : "r",
