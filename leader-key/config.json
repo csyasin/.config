@@ -57,6 +57,12 @@
           "value": "/System/Applications/System Settings.app"
         },
         {
+          "key": "m",
+          "label": "",
+          "type": "application",
+          "value": "/System/Applications/Mail.app"
+        },
+        {
           "key": "f",
           "label": "Finder",
           "type": "command",
