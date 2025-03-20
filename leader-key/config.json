@@ -1,293 +1,299 @@
 {
-  "actions" : [
+  "actions": [
     {
-      "key" : " ",
-      "label" : "Raycast",
-      "type" : "application",
-      "value" : "/Applications/Raycast.app"
+      "key": " ",
+      "label": "Raycast",
+      "type": "application",
+      "value": "/Applications/Raycast.app"
     },
     {
-      "actions" : [
+      "actions": [
         {
-          "key" : "v",
-          "label" : "",
-          "type" : "application",
-          "value" : "/Applications/Visual Studio Code.app"
+          "key": "v",
+          "label": "",
+          "type": "application",
+          "value": "/Applications/Visual Studio Code.app"
         },
         {
-          "key" : "c",
-          "label" : "",
-          "type" : "application",
-          "value" : "/Applications/Google Chrome.app"
+          "key": "c",
+          "label": "",
+          "type": "application",
+          "value": "/Applications/Google Chrome.app"
         },
         {
-          "key" : "w",
-          "label" : "",
-          "type" : "application",
-          "value" : "/Applications/Warp.app"
+          "key": "w",
+          "label": "",
+          "type": "application",
+          "value": "/Applications/Warp.app"
         },
         {
-          "key" : "l",
-          "label" : "",
-          "type" : "application",
-          "value" : "/Applications/Lark.app"
+          "key": "l",
+          "label": "",
+          "type": "application",
+          "value": "/Applications/Lark.app"
         },
         {
-          "key" : "n",
-          "label" : "",
-          "type" : "application",
-          "value" : "/Applications/Notion.app"
+          "key": "n",
+          "label": "",
+          "type": "application",
+          "value": "/Applications/Notion.app"
         },
         {
-          "key" : "g",
-          "label" : "",
-          "type" : "application",
-          "value" : "/Applications/Ghostty.app"
+          "key": "g",
+          "label": "",
+          "type": "application",
+          "value": "/Applications/Ghostty.app"
         },
         {
-          "key" : "z",
-          "label" : "",
-          "type" : "application",
-          "value" : "/Applications/Zed.app"
+          "key": "z",
+          "label": "",
+          "type": "application",
+          "value": "/Applications/Zed.app"
         },
         {
-          "key" : "s",
-          "label" : "",
-          "type" : "application",
-          "value" : "/System/Applications/System Settings.app"
+          "key": "s",
+          "label": "",
+          "type": "application",
+          "value": "/System/Applications/System Settings.app"
         },
         {
-          "key" : "f",
-          "label" : "Finder",
-          "type" : "command",
-          "value" : "open /System/Library/CoreServices/Finder.app\n"
+          "key": "f",
+          "label": "Finder",
+          "type": "command",
+          "value": "open /System/Library/CoreServices/Finder.app\n"
         }
       ],
-      "key" : "a",
-      "label" : "Applications",
-      "type" : "group"
+      "key": "a",
+      "label": "Applications",
+      "type": "group"
     },
     {
-      "actions" : [
+      "actions": [
         {
-          "key" : "l",
-          "label" : "Left Half",
-          "type" : "url",
-          "value" : "raycast://extensions/raycast/window-management/left-half"
+          "key": "l",
+          "label": "Left Half",
+          "type": "url",
+          "value": "raycast://extensions/raycast/window-management/left-half"
         },
         {
-          "key" : "r",
-          "label" : "Right Half",
-          "type" : "url",
-          "value" : "raycast://extensions/raycast/window-management/right-half"
+          "key": "r",
+          "label": "Right Half",
+          "type": "url",
+          "value": "raycast://extensions/raycast/window-management/right-half"
         },
         {
-          "key" : "t",
-          "label" : "Top Half",
-          "type" : "url",
-          "value" : "raycast://extensions/raycast/window-management/top-half"
+          "key": "t",
+          "label": "Top Half",
+          "type": "url",
+          "value": "raycast://extensions/raycast/window-management/top-half"
         },
         {
-          "key" : "b",
-          "label" : "Bottom Half",
-          "type" : "url",
-          "value" : "raycast://extensions/raycast/window-management/bottom-half"
+          "key": "b",
+          "label": "Bottom Half",
+          "type": "url",
+          "value": "raycast://extensions/raycast/window-management/bottom-half"
         },
         {
-          "key" : "c",
-          "label" : "Center",
-          "type" : "url",
-          "value" : "raycast://extensions/raycast/window-management/center"
+          "key": "c",
+          "label": "Center",
+          "type": "url",
+          "value": "raycast://extensions/raycast/window-management/center"
         },
         {
-          "key" : "m",
-          "label" : "Maximize",
-          "type" : "url",
-          "value" : "raycast://extensions/raycast/window-management/maximize"
+          "key": "m",
+          "label": "Maximize",
+          "type": "url",
+          "value": "raycast://extensions/raycast/window-management/maximize"
         },
         {
-          "key" : "a",
-          "label" : "Almost Maximize",
-          "type" : "url",
-          "value" : "raycast://extensions/raycast/window-management/almost-maximize"
+          "key": "a",
+          "label": "Almost Maximize",
+          "type": "url",
+          "value": "raycast://extensions/raycast/window-management/almost-maximize"
         },
         {
-          "key" : "f",
-          "label" : "Fullscreen",
-          "type" : "url",
-          "value" : "raycast://extensions/raycast/window-management/toggle-fullscreen"
+          "key": "f",
+          "label": "Fullscreen",
+          "type": "url",
+          "value": "raycast://extensions/raycast/window-management/toggle-fullscreen"
         },
         {
-          "key" : "n",
-          "label" : "Next Display",
-          "type" : "url",
-          "value" : "raycast://extensions/raycast/window-management/next-display"
+          "key": "n",
+          "label": "Next Display",
+          "type": "url",
+          "value": "raycast://extensions/raycast/window-management/next-display"
         }
       ],
-      "key" : "w",
-      "label" : "Window Management",
-      "type" : "group"
+      "key": "w",
+      "label": "Window Management",
+      "type": "group"
     },
     {
-      "actions" : [
+      "actions": [
         {
-          "key" : "v",
-          "label" : "Clipboard History",
-          "type" : "url",
-          "value" : "raycast://extensions/raycast/clipboard-history/clipboard-history"
+          "key": "v",
+          "label": "Clipboard History",
+          "type": "url",
+          "value": "raycast://extensions/raycast/clipboard-history/clipboard-history"
         },
         {
-          "key" : "t",
-          "label" : "Translate",
-          "type" : "url",
-          "value" : "raycast://extensions/isfeng/easydict/easydict?arguments=%7B%22queryText%22%3A%22%22%7D"
+          "key": "t",
+          "label": "Translate",
+          "type": "url",
+          "value": "raycast://extensions/isfeng/easydict/easydict?arguments=%7B%22queryText%22%3A%22%22%7D"
         },
         {
-          "key" : "r",
-          "label" : "List Repos",
-          "type" : "url",
-          "value" : "raycast://extensions/moored/git-repos/list"
+          "key": "r",
+          "label": "List Repos",
+          "type": "url",
+          "value": "raycast://extensions/moored/git-repos/list"
         },
         {
-          "key" : "c",
-          "label" : "Pick Color",
-          "type" : "url",
-          "value" : "raycast://extensions/thomas/color-picker/pick-color"
+          "key": "c",
+          "label": "Pick Color",
+          "type": "url",
+          "value": "raycast://extensions/thomas/color-picker/pick-color"
         },
         {
-          "key" : "f",
-          "label" : "Confetti",
-          "type" : "url",
-          "value" : "raycast://extensions/raycast/raycast/confetti"
+          "key": "f",
+          "label": "Confetti",
+          "type": "url",
+          "value": "raycast://extensions/raycast/raycast/confetti"
         },
         {
-          "key" : "q",
-          "label" : "Generate QR Code",
-          "type" : "url",
-          "value" : "raycast://extensions/Melvynx/qrcode-generator/index"
+          "key": "q",
+          "label": "Generate QR Code",
+          "type": "url",
+          "value": "raycast://extensions/Melvynx/qrcode-generator/index"
         },
         {
-          "key" : "g",
-          "label" : "Google Search",
-          "type" : "url",
-          "value" : "raycast://extensions/mblode/google-search/index"
+          "key": "g",
+          "label": "Google Search",
+          "type": "url",
+          "value": "raycast://extensions/mblode/google-search/index"
         }
       ],
-      "key" : "r",
-      "label" : "Raycast",
-      "type" : "group"
+      "key": "r",
+      "label": "Raycast",
+      "type": "group"
     },
     {
-      "actions" : [
+      "actions": [
         {
-          "key" : "a",
-          "label" : "Capture Area",
-          "type" : "url",
-          "value" : "cleanshot://capture-area"
+          "key": "a",
+          "label": "Capture Area",
+          "type": "url",
+          "value": "cleanshot://capture-area"
         },
         {
-          "key" : "p",
-          "label" : "Capture Previous Area",
-          "type" : "url",
-          "value" : "cleanshot://capture-previous-area"
+          "key": "p",
+          "label": "Capture Previous Area",
+          "type": "url",
+          "value": "cleanshot://capture-previous-area"
         },
         {
-          "key" : "f",
-          "label" : "Capture Fullscreen",
-          "type" : "url",
-          "value" : "cleanshot://capture-fullscreen"
+          "key": "f",
+          "label": "Capture Fullscreen",
+          "type": "url",
+          "value": "cleanshot://capture-fullscreen"
         },
         {
-          "key" : "w",
-          "label" : "Capture Window",
-          "type" : "url",
-          "value" : "cleanshot://capture-window"
+          "key": "w",
+          "label": "Capture Window",
+          "type": "url",
+          "value": "cleanshot://capture-window"
         },
         {
-          "key" : "s",
-          "label" : "Scrolling Capture",
-          "type" : "url",
-          "value" : "cleanshot://scrolling-capture"
+          "key": "s",
+          "label": "Scrolling Capture",
+          "type": "url",
+          "value": "cleanshot://scrolling-capture"
         },
         {
-          "key" : "r",
-          "label" : "Record Screen",
-          "type" : "url",
-          "value" : "cleanshot://record-screen"
+          "key": "r",
+          "label": "Record Screen",
+          "type": "url",
+          "value": "cleanshot://record-screen"
         },
         {
-          "key" : "t",
-          "label" : "Capture Text(OCR)",
-          "type" : "url",
-          "value" : "cleanshot://capture-text"
+          "key": "t",
+          "label": "Capture Text(OCR)",
+          "type": "url",
+          "value": "cleanshot://capture-text"
         }
       ],
-      "key" : "c",
-      "label" : "Capture",
-      "type" : "group"
+      "key": "c",
+      "label": "Capture",
+      "type": "group"
     },
     {
-      "actions" : [
+      "actions": [
         {
-          "key" : "l",
-          "label" : "Lock Screen",
-          "type" : "url",
-          "value" : "raycast://extensions/raycast/system/lock-screen"
+          "key": "l",
+          "label": "Lock Screen",
+          "type": "url",
+          "value": "raycast://extensions/raycast/system/lock-screen"
         },
         {
-          "key" : "s",
-          "label" : "Shut Down",
-          "type" : "url",
-          "value" : "raycast://extensions/raycast/system/shut-down"
+          "key": "e",
+          "label": "Empty Trash",
+          "type": "url",
+          "value": "raycast://extensions/raycast/system/empty-trash"
         },
         {
-          "key" : "r",
-          "label" : "Restart",
-          "type" : "url",
-          "value" : "raycast://extensions/raycast/system/restart"
+          "key": "s",
+          "label": "Shut Down",
+          "type": "url",
+          "value": "raycast://extensions/raycast/system/shut-down"
         },
         {
-          "actions" : [
+          "key": "r",
+          "label": "Restart",
+          "type": "url",
+          "value": "raycast://extensions/raycast/system/restart"
+        },
+        {
+          "actions": [
             {
-              "key" : "n",
-              "label" : "0%",
-              "type" : "url",
-              "value" : "raycast://extensions/raycast/system/set-volume-to-0"
+              "key": "n",
+              "label": "0%",
+              "type": "url",
+              "value": "raycast://extensions/raycast/system/set-volume-to-0"
             },
             {
-              "key" : "l",
-              "label" : "25%",
-              "type" : "url",
-              "value" : "raycast://extensions/raycast/system/set-volume-to-25"
+              "key": "l",
+              "label": "25%",
+              "type": "url",
+              "value": "raycast://extensions/raycast/system/set-volume-to-25"
             },
             {
-              "key" : "h",
-              "label" : "50%",
-              "type" : "url",
-              "value" : "raycast://extensions/raycast/system/set-volume-to-50"
+              "key": "h",
+              "label": "50%",
+              "type": "url",
+              "value": "raycast://extensions/raycast/system/set-volume-to-50"
             },
             {
-              "key" : "m",
-              "label" : "75%",
-              "type" : "url",
-              "value" : "raycast://extensions/raycast/system/set-volume-to-75"
+              "key": "m",
+              "label": "75%",
+              "type": "url",
+              "value": "raycast://extensions/raycast/system/set-volume-to-75"
             },
             {
-              "key" : "f",
-              "label" : "100%",
-              "type" : "url",
-              "value" : "raycast://extensions/raycast/system/set-volume-to-100"
+              "key": "f",
+              "label": "100%",
+              "type": "url",
+              "value": "raycast://extensions/raycast/system/set-volume-to-100"
             }
           ],
-          "key" : "v",
-          "label" : "Volume",
-          "type" : "group"
+          "key": "v",
+          "label": "Volume",
+          "type": "group"
         }
       ],
-      "key" : "s",
-      "label" : "System",
-      "type" : "group"
+      "key": "s",
+      "label": "System",
+      "type": "group"
     }
   ],
-  "type" : "group"
+  "type": "group"
 }
