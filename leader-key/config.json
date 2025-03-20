@@ -110,6 +110,18 @@
           "label" : "Almost Maximize",
           "type" : "url",
           "value" : "raycast://extensions/raycast/window-management/almost-maximize"
+        },
+        {
+          "key" : "f",
+          "label" : "Fullscreen",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/window-management/toggle-fullscreen"
+        },
+        {
+          "key" : "n",
+          "label" : "Next Display",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/window-management/next-display"
         }
       ],
       "key" : "w",
