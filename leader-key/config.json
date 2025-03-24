@@ -2,12 +2,18 @@
   "actions": [
     {
       "key": " ",
-      "label": "Raycast",
-      "type": "application",
-      "value": "/Applications/Raycast.app"
+      "label": "Clipboard History",
+      "type": "url",
+      "value": "raycast://extensions/raycast/clipboard-history/clipboard-history"
     },
     {
       "actions": [
+        {
+          "key": "r",
+          "label": "",
+          "type": "application",
+          "value": "/Applications/Raycast.app"
+        },
         {
           "key": "v",
           "label": "",
@@ -37,6 +43,12 @@
           "label": "",
           "type": "application",
           "value": "/Applications/Notion.app"
+        },
+        {
+          "key": "o",
+          "label": "",
+          "type": "application",
+          "value": "/Applications/Obsidian.app"
         },
         {
           "key": "g",
@@ -136,12 +148,6 @@
     },
     {
       "actions": [
-        {
-          "key": "v",
-          "label": "Clipboard History",
-          "type": "url",
-          "value": "raycast://extensions/raycast/clipboard-history/clipboard-history"
-        },
         {
           "key": "t",
           "label": "Translate",
