@@ -1,45 +1,37 @@
-/* * { */
-/*   font-family: 'CaskaydiaCove NFM Light' !important; */
-/* } */
+.tab-border-bottom-container {
+  height: 4px !important;
+  background: url("data:image/svg+xml;utf8,<svg width='40' height='4' xmlns='http://www.w3.org/2000/svg'><path d='M0 2 Q 5 -1 10 2 T 20 2 T 30 2 T 40 2' stroke='%2364c1db' fill='transparent' stroke-width='2'/></svg>")
+    repeat-x;
+  background-size: 40px 4px;
+  animation: waveMove 2s linear infinite;
+}
 
-/* command center */
+@keyframes waveMove {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: 40px;
+  }
+}
+
 .quick-input-widget {
-  top: 20% !important;
-  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25) !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5) !important;
   border-radius: 10px !important;
   padding: 8px !important;
-  border: 1px solid #1c1e2e !important;
-}
-.quick-input-filter .monaco-inputbox {
-  border-radius: 8px !important;
-  padding: 8px !important;
-  font-size: 16px !important;
-  margin-bottom: 8px !important;
+  width: 40vw !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
 }
 
-/* tab */
-.tab.active.selected::after {
-  content: '';
-  position: absolute;
-  width: calc(100% - 8px);
-  height: calc(100% - 8px);
-  top: 4px;
-  left: 4px;
-  border-radius: 6px;
-  background: linear-gradient(
-    45deg,
-    rgb(127, 127, 213),
-    rgb(134, 168, 231),
-    rgb(145, 234, 228),
-    rgb(145, 234, 228),
-    rgb(134, 168, 231)
-  ) !important;
-  opacity: 0.3;
-  pointer-events: none;
+.quick-input-filter .monaco-inputbox {
+  border-radius: 8px !important;
+  margin-bottom: 8px !important;
+  font-size: 18px !important;
 }
 
 /* minimap */
-.minimap-slider-horizontal {
+/* .minimap-slider-horizontal {
   background-size: 4px 4px !important;
   background-image: radial-gradient(transparent 1px, #9597ff30 1px) !important;
   backdrop-filter: saturate(50%) blur(4px);
@@ -47,10 +39,10 @@
   border: 2px solid #9597ff60;
   box-sizing: border-box;
   cursor: grab;
-}
+} */
 
 /* cursor */
-.cursors-layer .cursor {
+/* .cursors-layer .cursor {
   background: linear-gradient(
     135deg,
     rgb(127, 127, 213),
@@ -59,10 +51,10 @@
     #FF9E65
   ) !important;
   border-radius: 2px;
-}
+} */
 
 /* scrollbar */
-.editor-container .monaco-scrollable-element > .scrollbar.vertical > .slider {
+/* .editor-container .monaco-scrollable-element > .scrollbar.vertical > .slider {
   background: linear-gradient(
     to bottom,
     transparent,
@@ -73,4 +65,4 @@
   ) !important;
   width: 2px !important;
   transform: translateX(12px) !important;
-}
+} */
