@@ -1,19 +1,7 @@
 {
   "actions" : [
     {
-      "iconPath" : "document.on.clipboard.fill",
-      "key" : " ",
-      "label" : "Clipboard History",
-      "type" : "url",
-      "value" : "raycast://extensions/raycast/clipboard-history/clipboard-history"
-    },
-    {
       "actions" : [
-        {
-          "key" : "r",
-          "type" : "application",
-          "value" : "/Applications/Raycast.app"
-        },
         {
           "key" : "v",
           "type" : "application",
@@ -38,11 +26,6 @@
           "key" : "n",
           "type" : "application",
           "value" : "/Applications/Notion.app"
-        },
-        {
-          "key" : "o",
-          "type" : "application",
-          "value" : "/Applications/Obsidian.app"
         },
         {
           "key" : "g",
@@ -70,6 +53,11 @@
           "label" : "Finder",
           "type" : "command",
           "value" : "open /System/Library/CoreServices/Finder.app\n"
+        },
+        {
+          "key" : "e",
+          "type" : "application",
+          "value" : "/Applications/NeteaseMusic.app"
         }
       ],
       "iconPath" : "square.grid.3x3.fill",
@@ -141,6 +129,20 @@
           "label" : "Next Display",
           "type" : "url",
           "value" : "raycast://extensions/raycast/window-management/next-display"
+        },
+        {
+          "iconPath" : "arrow.left.square.fill",
+          "key" : ",",
+          "label" : "Previous Desktop",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/window-management/previous-desktop"
+        },
+        {
+          "iconPath" : "arrow.right.square.fill",
+          "key" : ".",
+          "label" : "Next Desktop",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/window-management/next-desktop"
         }
       ],
       "iconPath" : "square.split.2x1.fill",
@@ -150,6 +152,13 @@
     },
     {
       "actions" : [
+        {
+          "iconPath" : "document.on.clipboard.fill",
+          "key" : "v",
+          "label" : "Clipboard History",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/clipboard-history/clipboard-history"
+        },
         {
           "iconPath" : "translate",
           "key" : "t",
@@ -281,31 +290,31 @@
         {
           "actions" : [
             {
-              "key" : "n",
+              "key" : "a",
               "label" : "0%",
               "type" : "url",
               "value" : "raycast://extensions/raycast/system/set-volume-to-0"
             },
             {
-              "key" : "l",
+              "key" : "s",
               "label" : "25%",
               "type" : "url",
               "value" : "raycast://extensions/raycast/system/set-volume-to-25"
             },
             {
-              "key" : "h",
+              "key" : "d",
               "label" : "50%",
               "type" : "url",
               "value" : "raycast://extensions/raycast/system/set-volume-to-50"
             },
             {
-              "key" : "m",
+              "key" : "f",
               "label" : "75%",
               "type" : "url",
               "value" : "raycast://extensions/raycast/system/set-volume-to-75"
             },
             {
-              "key" : "f",
+              "key" : "g",
               "label" : "100%",
               "type" : "url",
               "value" : "raycast://extensions/raycast/system/set-volume-to-100"
@@ -321,6 +330,53 @@
       "key" : "s",
       "label" : "System",
       "type" : "group"
+    },
+    {
+      "actions" : [
+        {
+          "iconPath" : "square.and.arrow.down.fill",
+          "key" : "d",
+          "type" : "folder",
+          "value" : "/Users/yasin/Downloads"
+        },
+        {
+          "iconPath" : "photo.fill",
+          "key" : "p",
+          "type" : "folder",
+          "value" : "/Users/yasin/Pictures"
+        },
+        {
+          "iconPath" : "text.document.fill",
+          "key" : "o",
+          "type" : "folder",
+          "value" : "/Users/yasin/Documents"
+        },
+        {
+          "iconPath" : "house.fill",
+          "key" : "h",
+          "label" : "Home",
+          "type" : "folder",
+          "value" : "/Users/yasin"
+        }
+      ],
+      "iconPath" : "folder.fill",
+      "key" : "f",
+      "label" : "Folder",
+      "type" : "group"
+    },
+    {
+      "iconPath" : "arrow.left.square.fill",
+      "key" : ",",
+      "label" : "Previous Desktop",
+      "type" : "command",
+      "value" : "osascript -e 'tell application \"System Events\" to key code 123 using control down'"
+    },
+    {
+      "iconPath" : "arrow.right.square.fill",
+      "key" : ".",
+      "label" : "Next Desktop",
+      "type" : "command",
+      "value" : "osascript -e 'tell application \"System Events\" to key code 124 using control down'"
     }
   ],
   "type" : "group"

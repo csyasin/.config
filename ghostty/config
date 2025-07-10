@@ -1,12 +1,13 @@
 font-size = 16
 font-family = "CaskaydiaCove Nerd Font Mono"
-theme = rose-pine-moon
+theme = tokyonight
 window-width = 150
 window-height = 40
 window-padding-x = 15
 window-padding-balance
 adjust-cell-height = 10%
-macos-titlebar-style = hidden
+macos-titlebar-proxy-icon = hidden
+# macos-titlebar-style = hidden
 # custom-shader = shaders/bettercrt.glsl
 # custom-shader = shaders/drunkard.glsl
 # custom-shader = shaders/glitchy.glsl
