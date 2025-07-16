@@ -2,33 +2,26 @@
 
 volume_slider=(
   script="$PLUGIN_DIR/volume.sh"
-  updates=on
   label.drawing=off
   icon.drawing=off
-  slider.highlight_color=0xff64c1db
-  slider.background.height=6
-  slider.background.corner_radius=3
-  slider.background.color=0xff414550
+  slider.highlight_color=0xffffffff
+  slider.background.height=8
+  slider.background.corner_radius=4
+  slider.background.color=0x33ffffff
   slider.knob=􀀁
   slider.knob.drawing=on
+  slider.knob.color=0xffffffff
+  padding_left=0
+  padding_right=0
 )
 
 volume_icon=(
   click_script="$PLUGIN_DIR/volume_click.sh"
-  padding_left=10
-  # icon=􀊩
-  # icon.width=0
-  # icon.align=left
-  # icon.color=0xffffffff
-  # icon.font="$FONT:Regular:14.0"
-  # label.width=25
-  # label.align=left
-  # label.font="$FONT:Regular:14.0"
 )
 
-sketchybar --add slider volume right            \
-           --set volume "${volume_slider[@]}"   \
-           --subscribe volume volume_change     \
+sketchybar --add slider volume_slider right            \
+           --set volume_slider "${volume_slider[@]}"   \
+           --subscribe volume_slider volume_change     \
                               mouse.clicked     \
                                                 \
            --add item volume_icon right         \

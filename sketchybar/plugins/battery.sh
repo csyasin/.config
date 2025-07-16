@@ -4,6 +4,7 @@ PERCENTAGE="$(pmset -g batt | grep -Eo "\d+%" | cut -d% -f1)"
 CHARGING="$(pmset -g batt | grep 'AC Power')"
 
 if [ "$PERCENTAGE" = "" ]; then
+  sketchybar --set "$NAME" padding_left=0 padding_right=0 icon.padding_left=0 icon.padding_right=0 label.padding_left=0 label.padding_right=0
   exit 0
 fi
 
