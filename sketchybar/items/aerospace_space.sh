@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sketchybar --add event aerospace_workspace_change
+
 space_item=(
   padding_left=0
   padding_right=0
