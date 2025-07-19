@@ -78,13 +78,16 @@ ctrl + alt - r : yabai -m space --balance
 
 # region Application
 
+fn - b : open -a "Google Chrome"
 fn - c : open -a Calendar
 fn - f : open -a Finder
 fn - g : open -a Ghostty
 fn - m : open -a NetEaseMusic
 fn - n : open -a Notion
-fn - w : open -a Warp
+fn - p : open -a Postman
 fn - v : open -a "Visual Studio Code"
+fn - w : open -a Warp
+fn - x : open -a Xcode
 fn - z : open -a Zed
 fn - 0x2B : open -a "System Settings"
 
