@@ -14,5 +14,7 @@
 /alacritty/themes/
 !/sketchybar/
 /tmux/plugins/
+!/yabai/
+!/skhd/
 lazy-lock.json
 .DS_Store
